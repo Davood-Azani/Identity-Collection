@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Cookie-Based", "1-Cookie-Based", "{35A13D06-1C73-4162-8339-7F05F5F910D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Cookie-Based-Roles", "2-Cookie-Based-Roles", "{C58950E6-5391-4F98-BE21-CE27542BFE3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Cookie-Based-Roles-Claims", "3-Cookie-Based-Roles-Claims", "{F0011009-B0AB-41A1-A967-E8DF51A13846}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Cookie-Based-Roles-Claims-MFA", "4-Cookie-Based-Roles-Claims-MFA", "{06629EE4-C050-4E20-B709-D9F9563E4372}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Facebook-Auth", "5-Facebook-Auth", "{3EE4C3A9-901C-469C-AF88-9D4F5D4F2029}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6-auth-service", "6-auth-service", "{28F1DA04-B080-46BE-8F3E-6365D869FD57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7-Token-Basewd-Web-API", "7-Token-Basewd-Web-API", "{19D7633D-4BBE-4BFA-89D6-9FF3FEF2CE56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityNetCore", "1-Cookie-Based\IdentityNetCore\IdentityNetCore.csproj", "{5B4881BB-6F95-4BC5-B2D2-2AD6F5FBF53E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityNetCore", "2-Cookie-Based-Roles\IdentityNetCore\IdentityNetCore.csproj", "{9A86B03C-6806-4E71-959C-D02711F755B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityNetCore", "3-Cookie-Based-Roles-Claims\IdentityNetCore\IdentityNetCore.csproj", "{7001BF80-344E-4040-8F42-7E6FE31F7D98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityNetCore", "4-Cookie-Based-Roles-Claims-MFA\IdentityNetCore\IdentityNetCore.csproj", "{16F8D9F4-CA83-407D-8401-7DABF4FBA3CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityNetCore", "5-Facebook-Auth\Facebook-Auth\IdentityNetCore\IdentityNetCore.csproj", "{1A06785A-BE35-48F8-8D92-356296848021}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "auth-service", "6-auth-service\auth-service.csproj", "{8686D8B2-BDE5-413F-9938-00DCDB1B9FEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityNetCore", "7-Token-Basewd-Web-API\IdentityNetCore\IdentityNetCore.csproj", "{FCE41387-95DF-4281-B628-D95BAD240369}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B4881BB-6F95-4BC5-B2D2-2AD6F5FBF53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4881BB-6F95-4BC5-B2D2-2AD6F5FBF53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4881BB-6F95-4BC5-B2D2-2AD6F5FBF53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4881BB-6F95-4BC5-B2D2-2AD6F5FBF53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A86B03C-6806-4E71-959C-D02711F755B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A86B03C-6806-4E71-959C-D02711F755B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A86B03C-6806-4E71-959C-D02711F755B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A86B03C-6806-4E71-959C-D02711F755B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7001BF80-344E-4040-8F42-7E6FE31F7D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7001BF80-344E-4040-8F42-7E6FE31F7D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7001BF80-344E-4040-8F42-7E6FE31F7D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7001BF80-344E-4040-8F42-7E6FE31F7D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F8D9F4-CA83-407D-8401-7DABF4FBA3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F8D9F4-CA83-407D-8401-7DABF4FBA3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F8D9F4-CA83-407D-8401-7DABF4FBA3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F8D9F4-CA83-407D-8401-7DABF4FBA3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A06785A-BE35-48F8-8D92-356296848021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A06785A-BE35-48F8-8D92-356296848021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A06785A-BE35-48F8-8D92-356296848021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A06785A-BE35-48F8-8D92-356296848021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8686D8B2-BDE5-413F-9938-00DCDB1B9FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8686D8B2-BDE5-413F-9938-00DCDB1B9FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8686D8B2-BDE5-413F-9938-00DCDB1B9FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8686D8B2-BDE5-413F-9938-00DCDB1B9FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCE41387-95DF-4281-B628-D95BAD240369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE41387-95DF-4281-B628-D95BAD240369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE41387-95DF-4281-B628-D95BAD240369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE41387-95DF-4281-B628-D95BAD240369}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B4881BB-6F95-4BC5-B2D2-2AD6F5FBF53E} = {35A13D06-1C73-4162-8339-7F05F5F910D2}
+		{9A86B03C-6806-4E71-959C-D02711F755B6} = {C58950E6-5391-4F98-BE21-CE27542BFE3D}
+		{7001BF80-344E-4040-8F42-7E6FE31F7D98} = {F0011009-B0AB-41A1-A967-E8DF51A13846}
+		{16F8D9F4-CA83-407D-8401-7DABF4FBA3CE} = {06629EE4-C050-4E20-B709-D9F9563E4372}
+		{1A06785A-BE35-48F8-8D92-356296848021} = {3EE4C3A9-901C-469C-AF88-9D4F5D4F2029}
+		{8686D8B2-BDE5-413F-9938-00DCDB1B9FEE} = {28F1DA04-B080-46BE-8F3E-6365D869FD57}
+		{FCE41387-95DF-4281-B628-D95BAD240369} = {19D7633D-4BBE-4BFA-89D6-9FF3FEF2CE56}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {136A6AAA-97E3-41BB-9D22-BB4D80183238}
+	EndGlobalSection
+EndGlobal
